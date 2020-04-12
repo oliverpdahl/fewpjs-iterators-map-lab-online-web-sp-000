@@ -14,3 +14,7 @@ const tutorials = [
 const titleCased = () => {
   return tutorials
 }
+
+function sentenceTitleCased(sentence){
+  
+}
