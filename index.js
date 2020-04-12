@@ -16,8 +16,7 @@ const titleCased = () => {
 }
 
 function sentenceTitleCased(sentence){
-  console.log(sentence.split(' ').)
-  return sentence.split(' ').map( word => word.capitalize())
+  return sentence.split(' ').map(word => capitalize(word))
 }
 
 function capitalize(word) {
