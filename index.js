@@ -20,5 +20,5 @@ function sentenceTitleCased(sentence){
 }
 
 function capitalize(word) {
-  word[0].toUpperCase() + word.slice(1)
+  return word[0].toUpperCase() + word.slice(1)
 }
